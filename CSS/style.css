@@ -1,0 +1,66 @@
+body {
+  background-color: #000000;
+  font-size:18px;
+}
+.header img {
+float: left;
+padding: 25px 30px;
+height: 20%; 
+width: 20%
+
+        
+}
+
+#navbar {
+margin-right: 20px;
+font-family: Montserrat, bold sans-serif;
+font-weight: bold;
+letter-spacing: 9px;
+padding: 40px;
+}
+
+#navbar {
+background-color: #000000;
+    overflow:auto;
+    float: right
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #cccccc;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #e2374b;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+   
+
+}
+
+.sticky {
+  position:fixed;
+  top: 0;
+  width: 100%;
+    left: 610px
+}
+
+.sticky + .content {
+  padding-top: 60px;
+    
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 50px;
+}

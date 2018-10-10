@@ -1,0 +1,322 @@
+body {
+margin:0;
+background-color: #000000;
+}
+h1,h2,h4,h5,h6 {
+	font-family: 'Open Sans', sans-serif;
+	color: #07090C;
+	font-weight:700;
+}
+h3{
+    font-family: Montserrat, bold sans-serif;
+    font-weight: bold;
+    letter-spacing: 4px; 
+    color: #e2374b;
+}
+h1 {
+	font-size:31.104px;
+    color: #e2374b;
+}
+
+h2 {
+	font-size:25.92px;
+}
+
+h3 {
+	font-size:15.6px;
+}
+
+h4 {
+	font-size:10px;
+}
+
+h5 {
+	font-size:13px;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin;
+    font-size: 12px;
+}
+
+p1 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: thin;
+    font-size: 12px;
+    color: #f2f2f2;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-right: 20px;
+  font-family: Montserrat, bold sans-serif;
+  font-weight: bold;
+  letter-spacing: 9px;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #e2374b;
+  color: black;
+}
+
+.logo { 
+    width: 15%;
+    height: auto;
+    opacity:inherit;
+    margin-right:400px;
+}
+
+
+.content {
+    background-image: url(PICTURES/SUN.jpg);
+    max-width: 700px;
+    margin:100px;
+    margin-left: 150px;
+    
+    padding: 70px;
+    box-sizing: border-box;
+
+}
+
+.content1 {
+
+ max-width: 700px;
+    margin:100px;
+    margin-left: 150px;
+    background-color: white;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, bold sans-serif;
+    font-weight: bold;
+    letter-spacing: 9px; 
+    color: #e2374b;
+}
+
+.news {
+    color:#e2374b ;
+}
+
+.news:hover {
+    background-color: #e2374b;
+    color: black;
+}
+
+.default:hover {
+    background: #e2374b;
+}
+
+.img {
+    background-position:center;
+    width:500px;
+    height:300px;
+    float: right;
+    margin-left:90px;
+    margin-bottom:  110px;
+}
+
+.readmore a {
+    float: right;
+    border: none;
+    background-color: #e2374b;
+    padding: 14px 28px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, bold sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px; 
+    color: black;
+    text-decoration: none;
+}
+
+.upcoming {
+    margin-left: 850px;
+    margin-top: -450px;
+    background: black;
+    padding: 20px;
+   
+}
+
+.right-box {
+    top: -250px;
+    max-width: 300px;
+    margin:inherit;
+    margin-left: 850px;
+    background: white;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.details a {
+   font-family: Montserrat, bold sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 3px; 
+    color: #e2374b;
+    text-decoration: none;
+}
+
+.trending {
+    margin-left: 150px;
+    padding: 10px;
+}
+* {
+    box-sizing: border-box;
+} 
+.column {
+    float: left;
+    width: 15%;
+    padding: 13px;
+    margin-left: 140px;
+}
+
+.row:: after {
+    display: inline-block;
+    content: "";
+    clear: both;
+    
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 282%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #e2374b;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: Montserrat, bold sans-serif;
+  font-weight: bold;
+  letter-spacing: 6px; 
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer-distributed{
+	background-color: #e2374b;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 480px;
+}
+
+.footer-distributed .footer-left p{
+	color: black;
+	font-size: 14px;
+	margin: 0;
+}
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #f2f2f2;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #e2374b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #f2f2f2;
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+
